@@ -5,7 +5,8 @@
 }
 html{font-size: 100%;
     scroll-behavior: smooth;
-    font-family: 'Rubik Mono One', sans-serif; ;}
+    font-family: 'Rubik Mono One', sans-serif;
+}
 body{width: 100%;}
 main{height: 100vh;
 z-index: 1;}
@@ -51,8 +52,10 @@ span{
     color: yellow;
     text-align: center;
 }
-.titolo2{color: green;
-    text-align: center;}
+.titolo2{
+    color: green;
+    text-align: center;
+}
 .block{
     position: absolute;
     left: 50%;
