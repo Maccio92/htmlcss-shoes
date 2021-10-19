@@ -9,6 +9,29 @@ body{width: 100%;}
 main{height: 100vh;
 z-index: 1;}
 
+/* Bottoni */
+.header{
+    position: fixed;
+    height: 7vh;
+    top: 2vh;
+    right: 5vw;
+    z-index: 2;
+}
+.button{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    position: relative;
+}
+span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+}
 /* Sezioni immagini */
 .section{    
     height: 100%;
